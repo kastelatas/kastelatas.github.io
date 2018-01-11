@@ -1,0 +1,379 @@
+h1,h2,h3,p,ul {
+	font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,ul {
+	font-weight: 700;
+}
+
+
+
+a{
+	font-size: 16px;
+	font-family: Times New Roman;
+
+}
+
+
+#head {
+	margin: 0;
+	padding: 0;
+	background:linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url(../img/head.jpg)  center;
+	background-size: cover;
+	height: 550px;
+
+
+}
+
+#head .container {
+	min-height: 550px;
+}
+#head .menu {
+	
+	padding-top: 50px;
+	margin-left: 80px; 
+
+}
+
+
+#head ul li{
+	padding: 0;
+	margin: 0;
+	display: inline;	
+	list-style: none;
+
+}
+#head p {
+	margin: 0;
+	padding: 0;
+	font-size: 48pt;
+	font-family: Times New Roman;
+	
+	color: #bebebe;
+}
+
+#head h2 {
+	font-size: 38px;
+	color: #fff;
+
+}
+#head .p {
+	font-size: 21px;
+	color: #fff;
+	
+	
+}
+#head a{
+	color: #bebebe;
+	padding-left: 25px;
+	font-size: 20px;
+
+}
+#head-main {
+	text-align: center;
+	padding-top: 140px;	
+	
+}
+
+#head button {
+padding: 10px 64px;
+font-size: 21px;
+background: #a4b9be;
+}
+#cont{
+background: #fcfcfc;
+}	
+#cont div {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	max-width: 853px;
+	height: 400px;
+}
+#cont h1 {
+	color: #63696c;
+}
+
+#cont p {
+	color: #85888a;
+	font-size: 16px;
+	font-family: Lato Regular ;
+}
+
+#cont img {
+	padding-top: 40px;
+}
+
+#cont2{
+	background: url(../img/bg2.jpg) center;
+	height: 600px;
+}
+
+#cont2 div {
+	text-align: center;
+	max-width: 500px;
+	color: #fff;
+}
+
+#cont2 h3{
+	font-size: 38px;
+}
+
+#cont2 p{
+	font-size: 18px;
+}
+
+#free {
+	text-align: center;
+	padding-top: 70px;
+}
+
+#free h4{
+	padding-bottom: 15px;
+}
+
+
+#free div {
+	max-width: 900px;
+}
+
+.row h4 {
+	color: #535a5e;
+	font-size: 25px;
+	font-family: bold;
+	margin: 0;
+	padding: 0;
+
+}
+
+.row .r1{
+	
+	background: #535a5e;
+
+	color:#fff;
+	padding-top: 22px;
+
+
+
+}
+.row .r1 h4 {
+	padding-bottom: 10px;
+
+}
+
+.bg {
+	background: #e9eef2;
+	margin: 0;
+}
+
+.bg p {
+	padding-top: 30px;
+}
+
+.pp {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+.row .r2 {
+	background: #58ad52;
+	color:#fff;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+ .pp {
+	color: #fff;
+}
+
+.row button {
+	padding:  10px 110px 10px 110px;
+	border:100px;
+	color: #fff;
+	font-family: Lato Regular;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.row .b {
+	background: #535a5e;
+
+}
+
+.row .bb {
+	background: #58ad52;
+}
+.row .bbb {
+	background: #53a1ad;
+}
+
+
+.row .r3{
+	
+	background: #53a1ad;
+
+	color:#fff;
+	padding-top: 22px;
+}
+
+.row .text-n {
+
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.row .text-n p {
+	margin: 0;
+	padding: 0;
+	max-width: 350px;
+	margin-left: 260px;
+	color: #98a0a5;
+	font-family: Lato;
+	font-size: 14px;
+
+
+
+}
+#form {
+	height: 630px;
+	background: #2d3035;
+	text-align: center;
+	color: #f1f1f1;
+}
+ #form #get h1 {
+	color: #f1f1f1;
+
+	font-weight: bold;
+	font-family: Lato Bold;
+	font-size: 30px;
+}
+
+#form #got p {
+	font-size: 21px;
+
+	max-width: 435px;
+	text-align: center;
+}
+#form .row {
+	padding-top: 30px;
+}
+
+.forma {
+	margin-top: 50px;
+	height: 300px;
+
+}
+
+.forma button {
+	width:400px; 
+	height: 60px;
+	color: #2d3035;
+	font-size: 19px;
+	font-family: Lato Bold;
+
+}
+.forma .t1 {
+	background: #2d3035;
+	border: 2px solid #e9eef2;
+	width: 400px;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	}
+.forma .t2 {
+	background: #2d3035;
+	border: 2px solid #e9eef2;
+	width: 400px;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	
+}
+
+.forma .t3 {
+	background: #2d3035;
+	border: 2px solid #e9eef2;
+	width: 400px;
+	height: 90px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+img {
+	border-radius: 20px;
+
+}
+
+.footer .row {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer p {
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.footer ul li {
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+	margin:0;
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+.footer  ul li a {
+	color: #535a5e;
+}
+@media only screen and (max-width: 1200px){
+	#head .menu {
+		margin-left: 0;
+	}
+
+}
+
+@media only screen and (max-width: 990px){
+	
+	#head .menu {
+		position: relative;
+		left: 300px;
+		bottom: 100px;
+	}
+	
+	#head #head-main {
+		padding-top: 70px;
+	}
+
+	#free .row .bl1{
+		margin-bottom: 20px;
+
+	}
+
+	#free .row .bl2{
+		margin-bottom: 20px;
+
+	}
+
+	#free .row .bl3{
+		margin-bottom: 20px;
+
+	}
+
+	.row .text-n p {
+		margin-left: 190px;
+	}
+
+	.footer .col-md-6 ul {
+		position: relative;
+		bottom: 30px;
+		left: 30px;
+	}
+
+	.footer .col-md-6 p {
+		position: relative;
+		left: -60px;
+	}
+}

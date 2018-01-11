@@ -1,7 +1,7 @@
 h3,h2 {
 	font-family: 'Playfair Display', serif;    
 }
-h2 {
+h2,h3 {
 	font-weight: bold;
 }
 
@@ -275,8 +275,9 @@ p {
 }
 
 .team p {
-	color:#f9f9f9;
-	font-family: PlayfairDisplay;
+	color:#b2b1bb;
+	font-family: 'Roboto';
+	font-weight: 300;
 
 }
 
@@ -290,7 +291,7 @@ p {
 }
 
 .team .row img {
-	width: 263px;
+	width: 262px;
 	height: 230px;
 }
 
@@ -304,7 +305,6 @@ p {
 }
 
 .team .row p {
-	color:#f9f9f9;
 	margin: 0;
 
 }

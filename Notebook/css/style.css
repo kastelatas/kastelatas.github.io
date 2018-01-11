@@ -1,11 +1,13 @@
-h1,h2,h3,p,ul {
+h1,h2,h3,ul {
 	font-family: 'Lato', sans-serif;
 }
 h1,h2,h3,ul {
 	font-weight: 700;
 }
 
-
+body {
+	overflow-x: hidden;
+}
 
 a{
 	font-size: 16px;
@@ -31,6 +33,7 @@ a{
 	
 	padding-top: 50px;
 	margin-left: 80px; 
+	width: 520px;
 
 }
 
@@ -116,6 +119,7 @@ background: #fcfcfc;
 
 #cont2 h3{
 	font-size: 38px;
+	color: #f1f1f1;
 }
 
 #cont2 p{
@@ -125,6 +129,15 @@ background: #fcfcfc;
 #free {
 	text-align: center;
 	padding-top: 70px;
+}
+
+#free .container div .ppp p {
+	font-family: Lato;
+	color: #98a0a5;
+	font-size: 18px;
+	max-width: 600px;
+	position: relative;
+	left: 140px;
 }
 
 #free h4{
@@ -167,6 +180,8 @@ background: #fcfcfc;
 
 .bg p {
 	padding-top: 30px;
+	font-family: Lato;
+	font-size: 17px;
 }
 
 .pp {
@@ -345,6 +360,13 @@ img {
 	
 	#head #head-main {
 		padding-top: 70px;
+	}
+	
+	#free .container div .ppp p {
+	max-width: none;
+    position: static;
+    left: 0;
+
 	}
 
 	#free .row .bl1{

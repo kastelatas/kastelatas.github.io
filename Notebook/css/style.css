@@ -159,10 +159,8 @@ background: #fcfcfc;
 }
 
 .row .r1{
-	
 	background: #535a5e;
-
-	color:#fff;
+	color:#e9eef2;
 	padding-top: 22px;
 
 
@@ -196,7 +194,7 @@ background: #fcfcfc;
 
 .row .r2 {
 	background: #58ad52;
-	color:#fff;
+	color:#e9eef2;
 	padding-top: 10px;
 	padding-right: 5px;
 }
@@ -230,8 +228,7 @@ background: #fcfcfc;
 .row .r3{
 	
 	background: #53a1ad;
-
-	color:#fff;
+	color:#e9eef2;
 	padding-top: 22px;
 }
 

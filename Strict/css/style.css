@@ -1,0 +1,309 @@
+html {
+	font-family: Lato Regular , ;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1,h2,h3,p,button {
+	font-family: 'Lato', sans-serif;
+}
+/*===================HEAD=====================*/
+ .row {
+	margin: 0;
+	padding: 0;
+}
+
+ .pad {
+ 	padding: 0;
+ }
+.logo {
+	margin-left: 150px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.bg {
+	background: url(../img/head.jpg);
+	width: 100%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+.center-head {
+	text-align: center;
+	padding-top: 220px;
+}
+
+.center-head h1 {
+	font-size: 120px;
+	color: #fff;
+	font-weight: 700;
+	font-family: Lato ;
+}
+
+.center-head hr {
+	width: 600px;
+	height: 2px;
+	border:none;
+	background: #15a4fa;
+}
+
+.center-head p {
+	font-size: 20px;
+	font-family: Lato ;
+	color: #fff;
+}
+
+.center-head button {
+	margin-top: 60px;
+	padding: 10px 25px;
+	color: #fff;
+	background: transparent;
+	background-color: transparent;
+	outline: none;
+	border:1.5px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.center-head button:hover {
+	background: #15a4fa;
+	border:1.5px solid #15a4fa;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+}
+
+/*===================MAIN=====================*/
+
+.main {
+	height: 300px;
+	background: #f6f9f9;
+	
+	font-family: Regular;
+}
+.main .cent {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.main .cent h1 {
+	padding-bottom: 20px;
+	margin-bottom: 0;	
+	color: #2d3950;
+	font-size: 40px;
+}
+
+.main .cent p {
+	font-size: 17px;
+	color: #999999;
+	margin: 0;
+	max-width: 800px;
+    margin-left: 160px;
+	margin-bottom: 0;
+
+}
+
+/*===================Main-Sell=====================*/
+.main-sell .col-md-4.block {
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.main-sell .row {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main-sell .row #img {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-sell .row h3 {
+	font-size: 22px;
+}
+.main-sell .row p {
+	max-width: 300px;
+	margin-left: 10px;
+}
+
+/*===================PORTFOLIO=====================*/
+.portfolio .container  {
+height: 800px;
+
+}
+
+.bg1 {
+	background: #f6f9f9;
+}
+
+.portfolio .cent2 {
+	text-align: center;
+	font-family: Lato Regular;
+	margin-top: 85px;
+}
+.portfolio h3 {
+	font-size: 43px;
+	color: #2d3950;
+}
+
+.portfolio p {
+	font-size: 16px;
+	color: #909090;
+}
+
+
+.portfolio img {
+	padding-bottom: 20px;
+	z-index: 2;
+}
+
+
+/*===================STAY-WITH=====================*/
+.stay-with {
+	background:linear-gradient(rgba(43, 54, 74, 0.80), rgba(43, 54, 74, 0.80)), url(../img/stay-bg.jpg) center ;
+	background-size: cover;
+	height: 600px;
+}
+
+.stay-with .cent3 {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.stay-with h3 {
+	font-size: 43px;
+	color: #fff;
+}
+
+.stay-with p {
+	color: #76787d;
+	font-size: 20px;
+}
+
+.stay-with .form {
+	text-align: center;
+}
+
+.stay-with .form .inp {
+	margin-bottom: 30px;
+	background: transparent;
+	background-color: transparent;
+	outline: none;
+	border:1px solid #999999;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 17px;
+	font-family: Lato;
+}
+
+.stay-with .form .inp2 {
+
+	background: transparent;
+	background-color: transparent;
+	outline: none;
+	border:1px solid #999999;
+	width: 400px;
+	height: 100px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.stay-with .form span {
+	color: #fff;
+	padding-left: 20px;
+	font-size:18px;
+}
+
+.stay-with .form .send {
+	background: transparent;
+	background-color: transparent;
+	outline: none;
+	border:1px solid #15a4fa;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	width: 120px;
+	margin-left:70px;
+}
+
+
+/*===================FOOTER=====================*/
+
+.footer {
+	background: #f6f9f9;
+}
+
+.footer .px {
+	padding-top: 40px;
+}
+.footer p {
+	color: #999;
+}
+
+.footer img {
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+
+/*===================Large Device, Wide Screens=====================*/
+
+@media only screen and (max-width: 1200px){
+
+	.main .cent p {
+		max-width: none;
+		margin-left: 0;
+	}
+
+	.portfolio .container {
+    	height: 700px;
+	}
+
+	.portfolio  img {
+	  	width: 250px;
+	  	height: 200px;
+	  	position: relative;
+	  	left: 20px;
+	}
+
+
+}
+@media only screen and (max-width: 990px) {
+
+	.main-sell .row p {
+		max-width: 650px;
+	}
+
+	.portfolio .container {
+		position: relative;
+		top: -70px;
+
+	}
+
+	
+
+	.portfolio  img {
+  	display: inline-block;
+  	overflow: hidden;
+  }
+
+
+
+  .footer .col-md-6 img {
+  	position: relative;
+  	bottom: 30px;
+  }
+
+
+  
+}

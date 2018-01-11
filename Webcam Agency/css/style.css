@@ -1,0 +1,224 @@
+body{
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	min-width: 320px;
+	max-width: 1920px;
+}
+a{
+	
+	font-weight: 700;
+	font-style: 17px;
+}
+section {
+	position: relative;
+	
+}
+.section-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 200px;
+
+
+}
+.section-row {
+	display: table-row;
+
+}
+.section-cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+
+}
+.row{
+	text-align: center;
+}
+p img{
+	padding: 50px 0 0 0;
+}
+#head {
+	background:linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(../img/bghead.jpg) center ;
+	background-size: cover;
+	height: 100vh;
+	min-height: 500px;
+
+}
+
+#head h1{
+color: #fff;
+font-size: 75px;
+font-weight: 700;
+padding-bottom: 30px;
+
+}
+
+#head p{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+#head a{
+	font-size: 20px;
+	background: #fa694e;
+	padding: 14px 60px;
+	border-radius: 10px;
+}
+
+.logo {
+	margin: 12;
+	padding-top: 40px;
+	padding-left: 70px;
+}
+
+#tags .container {
+	padding-bottom: 50px;
+}
+
+#prem {
+	padding-top: 50px;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+#prem img {
+	width: 500px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+	border-radius: 20px;
+}
+#prem h3 {
+	font-size: 26px;
+}
+
+#prem ul li {
+	text-align: left;
+	font-size: 18px;
+	list-style-type: none; 
+}
+#prem ul li i {
+	padding-right: 5px;
+}
+#prem li {
+	font-family: 28px;
+}
+#treb ul li {
+	list-style-type: none; 
+	text-align: left;
+	font-size: 18px;
+}
+#treb ul li i {
+	padding-right: 5px;
+}
+#treb img {
+	    width: 500px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+#form-sell{
+	border-bottom: 1px solid silver;
+}
+
+#form-sell form {
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+
+}
+#form-sell p {
+	text-align: center;
+	padding-top: 20px;
+}
+#form-sell button {
+	padding: 14px 30px;
+	font-size: 20px;
+	background: #fa694e;
+	border-radius: 10px;
+}
+
+#maps .container {
+	width: 100%;
+	margin: 0;
+	padding:0;
+	padding-top:20px;
+}
+
+.map {
+	
+	width: 100%;
+	height: 400px;
+}
+
+#footer {
+	height: 100px;
+	background: #333;
+}
+
+#footer .row {
+	height: 100px;
+	float: right;
+	padding-top: 30px;
+
+}
+#footer .row ul{
+padding-bottom: 20px;
+
+}
+#footer .row ul li {
+	padding-left: 15px;
+}
+
+#footer .row ul li a {
+	display:block;
+	width:32px;
+	height:30px;
+	background:#fff;
+	border-radius:100%;
+	color:#2a2a2a;
+
+}
+
+.modal-content {
+	width: 400px;
+	text-align: center;
+}
+#contactForm {
+	
+}
+
+#form {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#form label {
+	float: left;
+}
+#tabs2 {
+	border-top: 1px solid silver;
+	border-bottom:  1px solid silver;
+}
+#tabs2 p {
+	font-size: 20px;
+}
+
+
+#tags i {
+	color: #fa694e;
+}
+
+#tabs2 i {
+	color: #fa694e;
+}
+
+#treb i {
+	color: #fa694e;
+}
+
+#prem i {
+	color: #fa694e;
+}

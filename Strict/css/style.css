@@ -199,10 +199,13 @@ height: 800px;
 	height: 40px;
 	border-radius: 5px;
 	color: #fff;
+
 	font-size: 17px;
 	font-family: Lato;
 }
-
+::-webkit-input-placeholder {
+	color: #fff;
+}
 .stay-with .form .inp2 {
 
 	background: transparent;
@@ -215,6 +218,7 @@ height: 800px;
 	margin-bottom: 20px;
 	color: #fff;
 	font-size: 17px;
+	font-family: Lato;
 }
 
 .stay-with .form span {
@@ -305,5 +309,29 @@ height: 800px;
   }
 
 
+  
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.main-sell .row p {
+		font-size: 20px;
+	}
+	
+  
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+	.center-head p {
+		font-size: 27px;
+		font-weight: 700;
+	}
+
+	.center-head button {
+		font-size: 28px;
+	}
   
 }

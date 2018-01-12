@@ -123,12 +123,12 @@ h1,h2,h3,p,button {
 	margin-left: 10px;
 }
 
-.main-sell .row h3 {
-	font-size: 22px;
-}
+
 .main-sell .row p {
 	max-width: 300px;
 	margin-left: 10px;
+	font-size: 17px;
+	color: #bbbaba;
 }
 
 /*===================PORTFOLIO=====================*/

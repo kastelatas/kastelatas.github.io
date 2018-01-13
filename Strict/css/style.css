@@ -159,9 +159,44 @@ height: 800px;
 
 .portfolio img {
 	padding-bottom: 20px;
-	z-index: 2;
+
+	
 }
 
+
+.link {
+	width: 360px;
+	height: 260px;
+	position: absolute;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+.link .link2 {
+	position: absolute;
+	
+	top: 100px;
+	left: 200px;
+}
+.link1 {
+	position: absolute;
+
+	top: 100px;
+	left: 120px;
+	
+	
+}
+
+.link1 img {
+	padding: 0;
+}
+
+.link:hover {
+	opacity: 1;
+	background: rgba(27, 156, 231, 0.7);
+	filter:alpha(opacity=80);
+	transition: 0.2s;
+}
 
 /*===================STAY-WITH=====================*/
 .stay-with {
@@ -278,6 +313,9 @@ height: 800px;
 	  	height: 200px;
 	  	position: relative;
 	  	left: 20px;
+	}
+	.link1,.link2 {
+		opacity: 0;
 	}
 
 

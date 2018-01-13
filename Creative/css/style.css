@@ -347,6 +347,9 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+	body {
+		max-width: 920px;
+	}
 	.content .container {
 		margin-left: 0;
 	}
@@ -356,6 +359,10 @@ body {
 	}
 	.head .menu {
 		text-align: center;
+	}
+
+	.content .col-md-4.block.sitebar {
+		margin-left: 190px;
 	}
 	
 }

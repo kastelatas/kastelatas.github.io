@@ -350,6 +350,9 @@ body {
 	.content .container {
 		margin-left: 0;
 	}
+	.head h1{
+		padding-right: 150px;
+	}
 	
 }
 

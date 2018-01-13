@@ -176,7 +176,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 block">
-        <div class="bgg"><p class="title">Basic</p></div>
+        <div class="bgg"><p class="title title1">Basic</p></div>
         <p class="mons first">$5.01/ Month</p>
         <p >Lorem ipsum</p>
         <p>Dolor sit amet, consect</p>
@@ -184,7 +184,7 @@
         <p>Proin commodo turpis</p>
         <p>lacus pulvinarvel </p>
         <p>Prnare nisi pretium.</p>
-        <p class="butt last"><button class="btn-defaulte">Buy Now</button></p>
+        <p class="butt last "><button class="btn-defaulte lt1">Buy Now</button></p>
       </div>
       <div class="col-md-4 block">
         <p class="title title2">Pro</p>
@@ -195,10 +195,10 @@
         <p>Proin commodo turpis</p>
         <p>lacus pulvinarvel </p>
         <p>Prnare nisi pretium.</p>
-        <p class="butt last"><button class="btn-defaulte">Buy Now</button></p>
+        <p class="butt last "><button class="btn-defaulte lt2">Buy Now</button></p>
       </div>
       <div class="col-md-4 block">
-       <p class="title ">Premium</p>
+       <p class="title title3">Premium</p>
         <p class="mons first">$20.01/ Month</p>
         <p>Lorem ipsum</p>
         <p>Dolor sit amet, consect</p>
@@ -206,7 +206,7 @@
         <p>Proin commodo turpis</p>
         <p>lacus pulvinarvel </p>
         <p>Prnare nisi pretium.</p>
-        <p class="butt last"><button class="btn-defaulte">Buy Now</button></p>
+        <p class="butt last "><button class="btn-defaulte lt3">Buy Now</button></p>
       </div>
     </div>
   </div>
@@ -287,7 +287,45 @@
       </div>
     </div>
   </section>
+  
+
+
   	 <script src="https://code.jquery.com/jquery-latest.js"></script>
+     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      $('.lt1').mouseenter(function(){
+        $(this).css('background','#49cbcd')
+        $('.title1').css('background','#49cbcd')
+      });
+      $('.lt1').mouseleave(function(){
+        $(this).css('background','#788492')
+        $('.title1').css('background','#485460')
+      });
+
+      $('.lt2').mouseenter(function(){
+        $(this).css('background','#49cbcd')
+        $('.title2').css('background','#49cbcd')
+      });
+      $('.lt2').mouseleave(function(){
+        $(this).css('background','#788492')
+        $('.title2').css('background','#485460')
+      });
+
+      $('.lt3').mouseenter(function(){
+        $(this).css('background','#49cbcd')
+        $('.title3').css('background','#49cbcd')
+      });
+      $('.lt3').mouseleave(function(){
+        $(this).css('background','#788492')
+        $('.title3').css('background','#485460')
+      });
+
+    });
+
+
+  </script>
   </body>
 </html>

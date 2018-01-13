@@ -354,6 +354,9 @@ body {
 		float: none;
 		text-align: center;
 	}
+	.head .menu {
+		text-align: center;
+	}
 	
 }
 

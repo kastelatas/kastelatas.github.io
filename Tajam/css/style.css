@@ -310,11 +310,13 @@ p {
 }
 
 .team .row .bord {
-	border-right:1px solid silver; 
-	border-left:1px solid silver;
-	border-bottom: 1px solid silver;
+	border:1px solid silver;
 	padding-bottom: 20px;
 
+}
+
+.team .row .bord .weight {
+	width: 260px;
 }
 
 .team .row .pad {

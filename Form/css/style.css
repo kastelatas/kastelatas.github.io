@@ -16,6 +16,8 @@ p:after {
 
 body {
 	background: url(../img/bg.jpg);
+	width: 570px;
+	height: 570px;
 }
 
 form {
@@ -34,6 +36,7 @@ span {
 	background: #01b3b3;
 	color: #fff;
 	text-transform: uppercase;
+	font-family: 'Arial' , sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 }

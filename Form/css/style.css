@@ -2,7 +2,7 @@
 p {
 	font-weight: 700;
 	font-size: 12px;
-	padding: 15px 0;
+	padding: 12px 0;
 	margin-bottom: 0;
 	padding-right: 2px;
 	padding-left: 2px;
@@ -43,7 +43,7 @@ span {
 
 form .first{
 	padding-top: 34px;
-	padding-bottom: 14px;
+	padding-bottom: 10px;
 }
 
 form .clr {

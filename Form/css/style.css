@@ -16,24 +16,27 @@ p:after {
 
 body {
 	background: url(../img/bg.jpg);
-	width: 570px;
-	height: 570px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	margin: 25vh;
 }
 
 form {
+	
 	background: #fff;
 	width: 318px;
 	height: 388px;
-	margin: 50px 100px;
 	padding-left: 28px;
 	padding-right: 28px;
 	font-family: 'Arial' , sans-serif;
-	margin: 100px 125px;
+	
 }
 
 span {
 	padding: 8px 10px;
 	padding-right: 23px;
+	padding-bottom: 4px;
 	background: #01b3b3;
 	color: #fff;
 	text-transform: uppercase;
@@ -43,7 +46,7 @@ span {
 }
 
 form .first{
-	padding-top: 34px;
+	padding-top: 32px;
 	padding-bottom: 10px;
 }
 
@@ -59,6 +62,10 @@ input {
 	height: 32px;
 
 
+}
+
+form .tr {
+	padding-top: 14px;
 }
 
 input::first-child {

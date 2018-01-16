@@ -1,0 +1,104 @@
+
+p {
+	font-weight: 700;
+	font-size: 12px;
+	padding: 19px 0;
+	margin-bottom: 0;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+p:after {
+    content: '*';
+    color: #01b3b3;
+}
+
+
+body {
+	background: url(../img/bg.jpg);
+}
+
+form {
+	background: #fff;
+	width: 318px;
+	height: 388px;
+	margin: 50px 100px;
+	padding-left: 28px;
+	padding-right: 28px;
+	font-family: 'Arial' , sans-serif;
+}
+
+span {
+	padding: 8px 10px;
+	background: #01b3b3;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+form .first{
+	padding-top: 34px;
+	padding-bottom: 14px;
+}
+
+form .clr {
+
+}
+
+
+input {
+	background: url(../img/bg.jpg);
+	border: 1px solid silver;
+	width: 262px;
+	height: 32px;
+
+
+}
+
+input::first-child {
+	margin-top: 80px;
+}
+
+
+button {
+	padding: 15px 64px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	background: #01c2c2;
+	border: 1px solid silver;
+	border-radius:4px;
+	color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}

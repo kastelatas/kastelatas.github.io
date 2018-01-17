@@ -1,5 +1,5 @@
 body {
-	background: url(../img/bg-head.jpg) center no-repeat;
+	background: url(../img/bg-head2.jpg) center no-repeat;
 	background-size: cover;
 }
 
@@ -45,6 +45,8 @@ body {
 	color: #fff;
 	font-weight: 700;
 	float: right;
+	position: relative;
+	bottom: 40px;
 }
 
 
@@ -94,7 +96,8 @@ body {
 .head .video {
 	position: absolute;
 	top: 160px;
-	right:300px;
+	right:240px;
+	margin-right: 10px;
 }
 
 .head .video-text {
@@ -115,7 +118,7 @@ body {
 
 @media screen and (max-width: 1998px) {
 	.head .video {
-		right: 230px;
+	
 	}
 }
 @media only screen and (max-width: 997px) {
@@ -136,6 +139,7 @@ body {
 	}
 	.head .video {
 		right: 110px;
+
 	}
 	.head .row-text {
 		padding-left: 210px;
@@ -146,71 +150,22 @@ body {
 }
 
 
-@media only screen and (max-width: 678px) {
+@media only screen and (max-width: 700px) {
 	.head h1 {
 		font-size: 120px;
+	}
+	.head ul{
+		text-align: center;
+	    font-size: 25px;
 	}
 	
 	.head .menu {
 		font-size: 20px;
 	}
+	.head .namber {
+		position: absolute;
+	    left: 260px;
+	    font-size: 22px;
+	}
 }
 
-@media screen and (max-width: 600px) {
-	.nav {
-		position: relative;
-		min-height: 40px;
-	}	
-	.nav ul {
-		width: 180px;
-		padding: 5px 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		border: solid 1px #aaa;
-		background: #FAFAFA url(images/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
-	}
-	.nav li {
-		display: none; /* скрыть все <li> пункты */
-		margin: 0;
-	}
-	.nav .current {
-		display: block; /* показывать только текущие активные <li> пункты */
-	}
-	.nav a {
-		display: block;
-		padding: 5px 5px 5px 32px;
-		text-align: left;
-	}
-	.nav .current a {
-		background: none;
-		color: #666;
-	}
- 
-	/* при наведении на пункты меню */
-	.nav ul:hover {
-		background-image: none;
-	}
-	.nav ul:hover li {
-		display: block;
-		margin: 0 0 5px;
-	}
-	.nav ul:hover .current {
-		background: url(images/icon-check.png) no-repeat 10px 7px;
-	}
- 
-	/* адаптивное меню справа */
-	.nav.right ul {
-		left: auto;
-		right: 0;
-	}
- 
-	/* адаптивное меню по центру */
-	.nav.center ul {
-		left: 50%;
-		margin-left: -90px;
-	}
- 
-}

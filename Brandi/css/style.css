@@ -301,10 +301,49 @@ html,body {
 	border-radius: 5px;
 }
 
-.works .work {
+.works .work ,.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8 {
 	width: 337.7px;
 	height: 250px;
 	float: left;
+}
+
+.works .work1 {
+	background: url(../img/img1.jpg);
+	background-size: cover;
+}
+.works .work2 {
+	background: url(../img/img2.jpg);
+	background-size: cover;
+}
+
+.works .work3 {
+	background: url(../img/img3.jpg);
+	background-size: cover;
+}
+
+.works .work4 {
+	background: url(../img/img4.jpg);
+	background-size: cover;
+}
+
+.works .work5 {
+	background: url(../img/img5.jpg);
+	background-size: cover;
+}
+
+.works .work6 {
+	background: url(../img/img6.jpg);
+	background-size: cover;
+}
+
+.works .work7 {
+	background: url(../img/img7.jpg);
+	background-size: cover;
+}
+
+.works .work8 {
+	background: url(../img/img8.jpg);
+	background-size: cover;
 }
 
 

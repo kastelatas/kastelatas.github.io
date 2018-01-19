@@ -1,0 +1,566 @@
+html,body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: table;
+}
+
+
+.md6 {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.md12 {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+ .md3 {
+	width:25%;
+	float: left;
+	position: relative;
+
+}
+
+ .md4 {
+ 	width:33.33333333%;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: left;
+	position: relative;
+ }
+
+
+ .row  {
+	margin: 0;
+	padding: 0;
+}
+
+.cent {
+	text-align: center;
+}
+
+/*==================header====================*/
+
+.header {
+	background: url(../img/bg-head.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+}
+
+.header .logo {
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 30px;
+	display: inline-block;
+	opacity: 1;
+	
+	position: relative;
+
+}
+
+
+
+.header .logo-text {
+	font-family: Open Sans;
+	font-weight: lighter;
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 18px;
+	color: #dddbdb;
+}
+
+.header .logo-text:before {
+	content: '';
+	width: 2px;
+	height: 20px;
+	display: inline-block;
+	background: #dddbdb;
+	margin-right: 20px;
+	position: relative;
+	top:5px;
+}
+
+.header .menu {
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 30px;
+	
+
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	outline: none;
+}
+
+.header ul li a:hover {
+	color:#0edc95;
+	transition:0.2s;
+}
+
+
+.header .cent {
+	text-align: center;
+	padding-top: 220px;
+	margin-bottom: 160px;
+
+}
+
+.header .head-b-text {
+	font-family: Open Sans;
+	font-size: 62px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.header .head-t-text {
+	font-size: 40px;
+	color: #fff;
+	font-family: Open Sans;
+	font-weight: 300;
+}
+
+.header .head-t-text span {
+	color: #0edc95;
+}
+
+.header .smoll {
+	font-family: Open Sans;
+	color: #fff;
+	font-size: 18px;
+}
+
+.header .smoll:before {
+	content: '';
+	width: 25px;
+	height: 1px;
+	display: inline-block;
+	background: #0edc95;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+
+.header .smoll:after {
+	content: '';
+	width: 25px;
+	height: 1px;
+	display: inline-block;
+	background: #0edc95;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+
+.header img {
+	margin-top: 70px;
+	margin-right: 20px;
+}
+
+/*==================featur====================*/
+.featur {
+	background: #f4f7f9;
+}
+.featur .cent {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.featur .feat-title {
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #0edc95;
+	margin-top: 100px;		
+}
+
+.featur .hert:before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.featur .hert:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.featur  .logo1 {
+	float: left;
+}
+
+.featur .feat-tt {
+	font-family: Open Sans;
+    margin-left: 51px;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+.featur .feat-text {
+	font-family: Open Sans;
+    margin-left: 51px;
+    color: #7c848b;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+/*==================works====================*/
+.works .wk-title {
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #0edc95;
+	margin-top: 60px;		
+
+}
+
+.works .hert:before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.works .hert:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.works .wk-text {
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 18px;
+	max-width: 900px;
+	margin-left: 100px;
+	color: #5b646e;
+}
+
+.works .menu {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.works ul {
+	padding-left: 0;
+}
+
+.works ul li {
+	display: inline-block;
+	
+	font-family: Open Sans;
+	font-weight: 700;
+}
+
+.works ul li a {
+	padding: 5px 20px;
+	color: #2c3c49;
+	text-decoration: none;
+}
+
+.works ul li a:hover {
+	background: #0eb493;
+	color: #fff;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+
+.works .work {
+	width: 337.7px;
+	height: 250px;
+	float: left;
+}
+
+
+
+/*==================team====================*/
+.team .t-title{
+	margin-top: 90px;
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #0edc95;
+	
+}
+
+.team .hert:before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.team .hert:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.team .t-text {
+	font-family: Open Sans;
+	font-weight: 700;
+	padding: 0 200px;
+	margin-bottom: 70px;
+	font-size: 18px;
+}
+
+.team .teams {
+	width: 280px;
+	height: 250px;
+} 
+
+.team .name , .job {
+	text-align: center;
+	font-family: Open Sans;
+}
+.team .name {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.team .job {
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 120px;
+}
+
+
+/*==================facts====================*/
+.facts {
+	background: url(../img/bg-facts.jpg) no-repeat center center;
+	background-size:cover ;
+}
+ 
+.facts .t-fact{
+	margin-top: 90px;
+	font-family: Open Sans;
+	font-weight: 800;
+	color: #0edc95;
+	
+}
+
+.facts .hert:before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.facts .hert:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.facts .nomb-fact , .text-fact {
+	color: #fff;
+}
+
+.facts  .text-fact {
+	font-size: 17.5px;
+	margin-bottom: 100px;
+
+}
+
+/*==================discuss====================*/
+.discuss .t-discus{
+	margin-top: 90px;
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #0edc95;
+	font-size: 28px;
+	
+}
+
+.discuss .hert:before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.discuss .hert:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	background: silver;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.discuss .t1-discus {
+	font-size: 18px;
+	color: #5b646e;
+	margin-bottom: 80px;
+}
+
+.discuss .cov{
+	padding: 0 20px;
+		font-family: Open Sans;
+}
+
+.discuss .smoll{
+	margin-top: 50px;
+	padding-right: 40px;
+	color: #9aa0a4;
+	margin-bottom: 100px;
+}
+
+.discuss .title-discus2 {
+	font-family: Open Sans;
+	font-weight: 700;
+}
+
+.discuss .f-name ,.f-email{
+	border: 0;
+	border-bottom: 1px solid silver;
+	width: 350px;
+	margin-right: 20px;
+	outline:none;
+}
+.discuss .f-message {
+	border: 0;
+	border-bottom: 1px solid silver;
+	width: 725px;
+	margin-top: 20px;
+	outline:none;
+}
+
+
+
+.discuss button {
+	margin-top: 20px;
+	float: left;
+	background: transparent;
+	background-color: transparent;
+	border: 0;
+	margin-left: 600px;
+	font-family: Open Sans;
+}
+
+.discuss button img {
+	margin-right: 10px;
+	padding-bottom: 3px;
+}
+
+
+/*==================footer====================*/
+
+.footer {
+	background: #1ea78d;
+	color: #fff;
+	font-family: Open Sans;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer .md3 {
+	padding: 0 20px;
+}
+
+.footer .logo {
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.footer input {
+	width: 260px;
+	height: 45px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	outline: 0;
+}
+
+.footer ul {
+	padding-left: 0;
+	float: left;
+	padding-right: 20px;
+}
+
+.footer ul li {
+	list-style: none;
+	margin-top: 4px;
+}
+.footer ul li a {
+	color: #fff;
+}
+
+.footer .hert {
+	margin-top: 30px;
+}
+
+.footer .hert:after {
+	content: ' Created with'
+}
+
+.footer .hert:before {
+	content: 'by themecurve '
+
+}
+
+.footer .reservd {
+	margin-top: 70px;
+
+}
+@media (min-width: 1200px){
+	.container {
+   	 width: 1170px;
+	}
+}
+

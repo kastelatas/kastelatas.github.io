@@ -82,7 +82,7 @@ h1,h2,h3,p,button {
 /*===================MAIN=====================*/
 
 .main {
-	height: 30rem;
+	
 	background: #f6f9f9;
 	
 	font-family: Regular;
@@ -105,7 +105,7 @@ h1,h2,h3,p,button {
 	margin: 0;
 	max-width: 80rem;
     margin-left: 16rem;
-	margin-bottom: 0;
+	margin-bottom: 5rem;
 
 }
 
@@ -134,10 +134,6 @@ h1,h2,h3,p,button {
 }
 
 /*===================PORTFOLIO=====================*/
-.portfolio .container  {
-height: 80rem;
-
-}
 
 .bg1 {
 	background: #f6f9f9;
@@ -159,14 +155,42 @@ height: 80rem;
 }
 
 
-.portfolio img {
-	padding-bottom: 2rem;
-
-	
+.portfolio .img1,.img2,.img3,.img4,.img5,.img6 {
+	width: 36rem;
+	height: 28rem;
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	background-size: cover;
 }
 
+.img1 {
+	background: url(../img/portfolio1.jpg) no-repeat center center;
+	background-size: cover;
+}
+.img2 {
+	background: url(../img/portfolio2.jpg)no-repeat center center;
+	background-size: cover;
+	
+}
+.img3 {
+	background: url(../img/portfolio3.jpg)no-repeat center center;
+	background-size: cover;
+}
+.img4 {
+	background: url(../img/portfolio4.jpg)no-repeat center center;
+	background-size: cover;
+}
+.img5 {
+	background: url(../img/portfolio5.jpg)no-repeat center center;
+	background-size: cover;
+}
+.img6 {
+	background: url(../img/portfolio6.jpg)no-repeat center center;
+	background-size: cover;
+}
 
-
+	
 /*===================STAY-WITH=====================*/
 .stay-with {
 	background:linear-gradient(rgba(43, 54, 74, 0.80), rgba(43, 54, 74, 0.80)), url(../img/stay-bg.jpg) center ;
@@ -217,6 +241,7 @@ height: 80rem;
 	outline: none;
 	border:1px solid #999999;
 	width: 40rem;
+	min-width: 35rem;
 	height: 10rem;
 	border-radius: 0.5rem;
 	margin-bottom: 2rem;
@@ -273,9 +298,7 @@ height: 80rem;
 		margin-left: 0;
 	}
 
-	.portfolio .container {
-    	height: 700px;
-	}
+
 
 	.portfolio  img {
 	  	width: 25rem;
@@ -295,27 +318,17 @@ height: 80rem;
 		max-width: 650px;
 	}
 
-	.portfolio .container {
-		position: relative;
-		top: -70px;
+	.portfolio  img {
+		width:45rem;
 
 	}
-	.link , .link2{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 0;
-		height: 0;
-	}
+	
 	
 
 
 
 
-  .footer .col-md-6 img {
-  	position: relative;
-  	bottom: 30px;
-  }
+
 
 
   
@@ -323,6 +336,12 @@ height: 80rem;
 
 @media only screen and (max-width: 768px) {
 	
+	.portfolio  img {
+	  	width: 25rem;
+	  	height: 20rem;
+	  	position: relative;
+	 
+	}
 
   
 }
@@ -330,7 +349,7 @@ height: 80rem;
 
 
 @media only screen and (max-width: 480px) {
-
+	
 
   
 }

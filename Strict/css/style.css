@@ -1,8 +1,9 @@
 html {
 	font-family: Lato Regular , ;
-	font-size: 20px;
+	font-size: 10px;
 	margin: 0;
 	padding: 0;
+
 
 }
 
@@ -19,121 +20,122 @@ h1,h2,h3,p,button {
  	padding: 0;
  }
 .logo {
-	margin-left: 150px;
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-left: 10.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
 }
 
 .bg {
-	background: url(../img/head.jpg);
-	width: 100%;
-	height: 800px;
+	background: url(../img/head.jpg) no-repeat center ;
+	background-size: cover;
+	
+	height: 80rem;
 	margin: 0;
 	padding: 0;
 }
 
 .center-head {
 	text-align: center;
-	padding-top: 220px;
+	padding-top: 20.2rem;
 }
 
 .center-head h1 {
-	font-size: 120px;
+	font-size: 12rem;
 	color: #fff;
 	font-weight: 700;
 	font-family: Lato ;
 }
 
 .center-head hr {
-	width: 600px;
-	height: 2px;
+	margin: 0 40rem;
+	height: 0.2rem;
 	border:none;
 	background: #15a4fa;
 }
 
 .center-head p {
-	font-size: 20px;
+	font-size: 2rem;
 	font-family: Lato ;
 	color: #fff;
 }
 
 .center-head button {
-	margin-top: 60px;
-	padding: 10px 25px;
+	margin-top: 6rem;
+	padding: 1rem 2.5rem;
 	color: #fff;
 	background: transparent;
 	background-color: transparent;
 	outline: none;
 	border:1.5px solid #15a4fa;
-	border-radius: 5px;
-	font-size: 18px;
+	border-radius: 0.5rem;
+	font-size: 1.8rem;
 }
 
 .center-head button:hover {
 	background: #15a4fa;
 	border:1.5px solid #15a4fa;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	color: #fff;
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 /*===================MAIN=====================*/
 
 .main {
-	height: 300px;
+	height: 30rem;
 	background: #f6f9f9;
 	
 	font-family: Regular;
 }
 .main .cent {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 5rem;
 }
 
 .main .cent h1 {
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
 	margin-bottom: 0;	
 	color: #2d3950;
-	font-size: 40px;
+	font-size: 4rem;
 }
 
 .main .cent p {
-	font-size: 17px;
+	font-size: 1.7rem;
 	color: #999999;
 	margin: 0;
-	max-width: 800px;
-    margin-left: 160px;
+	max-width: 80rem;
+    margin-left: 16rem;
 	margin-bottom: 0;
 
 }
 
 /*===================Main-Sell=====================*/
 .main-sell .col-md-4.block {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3rem;
+	padding-right: 3rem;
 
 }
 .main-sell .row {
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 .main-sell .row #img {
 	margin: 0;
-	margin-left: 10px;
+	margin-left: 1rem;
 }
 
 
 .main-sell .row p {
-	max-width: 300px;
-	margin-left: 10px;
-	font-size: 17px;
+	max-width: 30rem;
+	margin-left: 1rem;
+	font-size: 1.7rem;
 	color: #bbbaba;
 }
 
 /*===================PORTFOLIO=====================*/
 .portfolio .container  {
-height: 800px;
+height: 80rem;
 
 }
 
@@ -144,80 +146,47 @@ height: 800px;
 .portfolio .cent2 {
 	text-align: center;
 	font-family: Lato Regular;
-	margin-top: 85px;
+	margin-top: 8.5rem;
 }
 .portfolio h3 {
-	font-size: 43px;
+	font-size: 4.3rem;
 	color: #2d3950;
 }
 
 .portfolio p {
-	font-size: 16px;
+	font-size: 1.6rem;
 	color: #909090;
 }
 
 
 .portfolio img {
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
 
 	
 }
 
 
-.link {
-	width: 360px;
-	height: 260px;
-	position: absolute;
-	opacity: 0;
-	filter:alpha(opacity=0);
-}
-
-.link .link2 {
-	position: absolute;
-	
-	top: 100px;
-	left: 200px;
-}
-.link1 {
-	position: absolute;
-
-	top: 100px;
-	left: 120px;
-	
-	
-}
-
-.link1 img {
-	padding: 0;
-}
-
-.link:hover {
-	opacity: 1;
-	background: rgba(27, 156, 231, 0.7);
-	filter:alpha(opacity=80);
-	transition: 0.2s;
-}
 
 /*===================STAY-WITH=====================*/
 .stay-with {
 	background:linear-gradient(rgba(43, 54, 74, 0.80), rgba(43, 54, 74, 0.80)), url(../img/stay-bg.jpg) center ;
 	background-size: cover;
-	height: 600px;
+	height: 60rem;
 }
 
 .stay-with .cent3 {
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 7rem;
 }
 
 .stay-with h3 {
-	font-size: 43px;
+	font-size: 4.3rem;
 	color: #fff;
 }
 
 .stay-with p {
 	color: #76787d;
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 .stay-with .form {
@@ -225,17 +194,17 @@ height: 800px;
 }
 
 .stay-with .form .inp {
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 	background: transparent;
 	background-color: transparent;
 	outline: none;
 	border:1px solid #999999;
-	width: 400px;
-	height: 40px;
-	border-radius: 5px;
+	width: 40rem;
+	height: 4rem;
+	border-radius: 0.5rem;
 	color: #fff;
 
-	font-size: 17px;
+	font-size: 1.7rem;
 	font-family: Lato;
 }
 ::-webkit-input-placeholder {
@@ -247,19 +216,19 @@ height: 800px;
 	background-color: transparent;
 	outline: none;
 	border:1px solid #999999;
-	width: 400px;
-	height: 100px;
-	border-radius: 5px;
-	margin-bottom: 20px;
+	width: 40rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
 	color: #fff;
-	font-size: 17px;
+	font-size: 1.7rem;
 	font-family: Lato;
 }
 
 .stay-with .form span {
 	color: #fff;
-	padding-left: 20px;
-	font-size:18px;
+	padding-left: 2rem;
+	font-size:1.8rem;
 }
 
 .stay-with .form .send {
@@ -267,11 +236,11 @@ height: 800px;
 	background-color: transparent;
 	outline: none;
 	border:1px solid #15a4fa;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	color: #fff;
-	font-size: 18px;
-	width: 120px;
-	margin-left:70px;
+	font-size: 1.8rem;
+	width: 12rem;
+	margin-left:7rem;
 }
 
 
@@ -290,8 +259,8 @@ height: 800px;
 
 .footer img {
 	float: right;
-	padding-right: 10px;
-	padding-bottom: 15px;
+	padding-right: 1rem;
+	padding-bottom: 1.5rem;
 }
 
 
@@ -309,10 +278,10 @@ height: 800px;
 	}
 
 	.portfolio  img {
-	  	width: 250px;
-	  	height: 200px;
+	  	width: 25rem;
+	  	height: 20rem;
 	  	position: relative;
-	  	left: 20px;
+	  	left: 2rem;
 	}
 	.link1,.link2 {
 		opacity: 0;
@@ -331,13 +300,15 @@ height: 800px;
 		top: -70px;
 
 	}
-
+	.link , .link2{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 0;
+	}
 	
 
-	.portfolio  img {
-  	display: inline-block;
-  	overflow: hidden;
-  }
 
 
 
@@ -352,10 +323,7 @@ height: 800px;
 
 @media only screen and (max-width: 768px) {
 	
-	.main-sell .row p {
-		font-size: 20px;
-	}
-	
+
   
 }
 
@@ -363,13 +331,6 @@ height: 800px;
 
 @media only screen and (max-width: 480px) {
 
-	.center-head p {
-		font-size: 27px;
-		font-weight: 700;
-	}
 
-	.center-head button {
-		font-size: 28px;
-	}
   
 }

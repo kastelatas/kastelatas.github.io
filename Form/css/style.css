@@ -16,16 +16,20 @@ p:after {
 
 body {
 	background: url(../img/bg.jpg);
-	display: flex; 
-	align-items: center; 
-	justify-content: center;
-	margin: 25vh;
+	 position: absolute;  /* подробнее про position: absolute; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 150px;
+
 }
 
 form {
 	
 	background: #fff;
 	width: 318px;
+	margin: 0 auto;
 	height: 388px;
 	padding-left: 28px;
 	padding-right: 28px;

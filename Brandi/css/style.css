@@ -4,6 +4,7 @@ html,body {
 	padding: 0;
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
+	font-size: 10px;
 }
 
 
@@ -11,8 +12,8 @@ html,body {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 	display: table;
 }
 
@@ -60,12 +61,13 @@ html,body {
 	background: url(../img/bg-head.jpg) no-repeat center center;
 	background-size: cover;
 	height: 100%;
+	padding-bottom: 20rem;
 }
 
 .header .logo {
 	font-family: 'Pacifico', cursive;
 	color: #fff;
-	font-size: 30px;
+	font-size: 3rem;
 	display: inline-block;
 	opacity: 1;
 	
@@ -79,30 +81,30 @@ html,body {
 	font-family: Open Sans;
 	font-weight: lighter;
 	display: inline-block;
-	padding-left: 20px;
-	font-size: 18px;
+	padding-left: 2rem;
+	font-size: 1.8rem;
 	color: #dddbdb;
 }
 
 .header .logo-text:before {
 	content: '';
-	width: 2px;
-	height: 20px;
+	width: 0.2rem;
+	height: 2rem;
 	display: inline-block;
 	background: #dddbdb;
-	margin-right: 20px;
+	margin-right: 2rem;
 	position: relative;
 	top:5px;
 }
 
 .header .menu {
-	margin-top: 20px;
-	padding-top: 10px;
+	margin-top: 2rem;
+	padding-top: 1rem;
 }
 
 .header ul li {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 3rem;
 	
 
 }
@@ -111,7 +113,7 @@ html,body {
 	text-decoration: none;
 	color: #fff;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 2rem;
 	outline: none;
 }
 
@@ -123,20 +125,21 @@ html,body {
 
 .header .cent {
 	text-align: center;
-	padding-top: 220px;
-	margin-bottom: 160px;
+	padding-top: 2rem;
+	margin-bottom: 1.6rem;
 
 }
 
 .header .head-b-text {
 	font-family: Open Sans;
-	font-size: 62px;
+	font-size: 6.2rem;
+	margin-top: 20rem;
 	color: #fff;
 	font-weight: 300;
 }
 
 .header .head-t-text {
-	font-size: 40px;
+	font-size: 4rem;
 	color: #fff;
 	font-family: Open Sans;
 	font-weight: 300;
@@ -149,17 +152,17 @@ html,body {
 .header .smoll {
 	font-family: Open Sans;
 	color: #fff;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 .header .smoll:before {
 	content: '';
-	width: 25px;
-	height: 1px;
+	width: 2.5rem;
+	height: 0.1rem;
 	display: inline-block;
 	background: #0edc95;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 
@@ -170,13 +173,13 @@ html,body {
 	display: inline-block;
 	background: #0edc95;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 
 .header img {
-	margin-top: 70px;
-	margin-right: 20px;
+	margin-top: 7rem;
+	margin-right: 2rem;
 }
 
 /*==================featur====================*/
@@ -185,7 +188,7 @@ html,body {
 }
 .featur .cent {
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 4rem;
 }
 
 .featur .feat-title {
@@ -202,7 +205,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 .featur .hert:after {
@@ -212,7 +215,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .featur  .logo1 {
@@ -250,7 +253,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 .works .hert:after {
@@ -260,7 +263,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .works .wk-text {
@@ -289,8 +292,9 @@ html,body {
 }
 
 .works ul li a {
-	padding: 5px 20px;
+	padding: 5px 2rem;
 	color: #2c3c49;
+	font-size: 1.6rem;
 	text-decoration: none;
 }
 
@@ -302,8 +306,8 @@ html,body {
 }
 
 .works .work ,.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8 {
-	width: 337.7px;
-	height: 250px;
+	width: 33.7rem;
+	height: 25rem;
 	float: left;
 }
 
@@ -359,35 +363,35 @@ html,body {
 
 .team .hert:before {
 	content: '';
-	width: 50px;
-	height: 1px;
+	width: 5rem;
+	height: 0.1rem;
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 .team .hert:after {
 	content: '';
-	width: 50px;
-	height: 1px;
+	width: 5rem;
+	height: 0.1rem;
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .team .t-text {
 	font-family: Open Sans;
 	font-weight: 700;
-	padding: 0 200px;
-	margin-bottom: 70px;
+	padding: 0 20rem;
+	margin-bottom: 7rem;
 	font-size: 18px;
 }
 
 .team .teams {
-	width: 280px;
-	height: 250px;
+	width: 28rem;
+	height: 25rem;
 } 
 
 .team .name , .job {
@@ -402,7 +406,7 @@ html,body {
 .team .job {
 	font-size: 13px;
 	font-weight: 400;
-	margin-bottom: 120px;
+	margin-bottom: 12rem;
 }
 
 
@@ -427,7 +431,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 .facts .hert:after {
@@ -437,7 +441,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .facts .nomb-fact , .text-fact {
@@ -467,7 +471,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2rem;
 }
 
 .discuss .hert:after {
@@ -477,7 +481,7 @@ html,body {
 	display: inline-block;
 	background: silver;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .discuss .t1-discus {
@@ -487,13 +491,13 @@ html,body {
 }
 
 .discuss .cov{
-	padding: 0 20px;
+	padding: 0 2rem;
 		font-family: Open Sans;
 }
 
 .discuss .smoll{
 	margin-top: 50px;
-	padding-right: 40px;
+	padding-right: 4rem;
 	color: #9aa0a4;
 	margin-bottom: 100px;
 }
@@ -507,27 +511,30 @@ html,body {
 	border: 0;
 	border-bottom: 1px solid silver;
 	width: 350px;
-	margin-right: 20px;
+	margin-right: 2rem;
 	outline:none;
+	font-size: 1.4rem;
 }
 .discuss .f-message {
 	border: 0;
 	border-bottom: 1px solid silver;
 	width: 725px;
-	margin-top: 20px;
+	margin-top: 2rem;
 	outline:none;
+	font-size: 1.4rem;
 }
 
 
 
 .discuss button {
-	margin-top: 20px;
+	margin-top: 2rem;
 	float: left;
 	background: transparent;
 	background-color: transparent;
 	border: 0;
 	margin-left: 600px;
 	font-family: Open Sans;
+	font-size: 1.4rem;
 }
 
 .discuss button img {
@@ -547,29 +554,29 @@ html,body {
 }
 
 .footer .md3 {
-	padding: 0 20px;
+	padding: 0 2rem;
 }
 
 .footer .logo {
 	font-family: 'Pacifico', cursive;
 	color: #fff;
 	font-size: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .footer input {
 	width: 260px;
 	height: 45px;
 	border-radius: 5px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 	outline: 0;
 }
 
 .footer ul {
 	padding-left: 0;
 	float: left;
-	padding-right: 20px;
+	padding-right: 2rem;
 }
 
 .footer ul li {
@@ -594,12 +601,22 @@ html,body {
 }
 
 .footer .reservd {
-	margin-top: 70px;
+	margin-top: 7rem
 
 }
-@media (min-width: 1200px){
-	.container {
-   	 width: 1170px;
+@media (max-width: 1200px){
+	.team .teams {
+   	 	width: 23rem;
 	}
 }
+
+@media (max-width: 991px){
+	.team .teams {
+		width: 20rem;
+		height: 20rem
+   	 	display: block;
+   	 	float: left;
+	}
+}
+
 

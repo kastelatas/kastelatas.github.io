@@ -301,8 +301,7 @@ h1,h2,h3,p,button {
 
 
 	.portfolio  img {
-	  	width: 25rem;
-	  	height: 20rem;
+	 
 	  	position: relative;
 	  	left: 2rem;
 	}
@@ -319,26 +318,16 @@ h1,h2,h3,p,button {
 	}
 
 	.portfolio  img {
-		width:45rem;
-
+		
+	
 	}
-	
-	
-
-
-
-
-
-
-
-  
 }
 
 @media only screen and (max-width: 768px) {
 	
 	.portfolio  img {
-	  	width: 25rem;
-	  	height: 20rem;
+	  	width: 60%;
+	  	
 	  	position: relative;
 	 
 	}
@@ -348,8 +337,12 @@ h1,h2,h3,p,button {
 
 
 
-@media only screen and (max-width: 480px) {
-	
+@media only screen and (max-width: 400px) {
+	.portfolio  img {
+
+    	width: 60%;
+    height: 22rem;
+
 
   
 }

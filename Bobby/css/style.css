@@ -1,0 +1,253 @@
+html {
+	font-size: 10px;
+	font-family: Times New Roman;
+}
+
+.header {
+	padding-top: 20px;
+	background: url(../img/test.jpg) center center no-repeat;
+	background-size:cover ;
+	background-attachment: fixed;
+	
+}
+
+
+
+.header .logo {
+	font-family: Times New Roman;
+	font-size: 5rem;
+	font-weight: 700;
+	color: #fff;
+	margin-left: 15rem;
+}
+
+.header .nomber {
+	font-size: 1.8rem;
+	padding-top: 0.5rem;
+	padding: 0 15rem;
+	margin-left: 8rem;
+	color: #fff;
+
+}
+
+.header .posi{
+	float: right;
+	margin-top: 30rem;
+	margin-right: 5rem;
+}
+
+.header .text {
+	font-size: 3rem;
+	color: #fff;
+}
+
+.header .price1 {
+	font-size: 3rem;
+	color: #fff;
+	text-decoration: line-through;
+	display: inline-block; 
+}
+
+.header .price2 {
+	font-size: 3rem;
+	color: #2EAFEB;
+	display: inline-block; 
+	margin-left: 1rem;
+}
+
+.header .podr {
+	display: inline-block;
+}
+
+.header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.header .pay {
+	border: 2px solid silver;
+	background: transparent;
+	background-color: transparent;
+	color: #fff;
+	font-size: 3rem;
+	border-radius: 10rem;
+	padding: 0 3rem;
+	margin-bottom: 10rem;
+}
+
+
+/*==================about====================*/
+
+.about {
+	padding-top: 8rem;
+}
+
+.about .about-title {
+	font-size: 7rem;
+}
+
+.about .about-text {
+	font-size: 2rem;
+}
+
+.cent {
+	text-align: center;
+	padding: 0 15rem;
+}
+
+.about .about-title2{
+	margin-top: 10rem;
+	font-size: 5rem;
+}
+
+.about .about-text2 {
+	font-size: 1.7rem;
+	margin-bottom: 6rem;
+}
+
+
+.bg-img  {
+	background: url(../img/10.jpg) center center no-repeat;
+	height: 60rem;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/*=======================disay================================*/
+
+.disay {
+	margin-top: 7rem;
+}
+
+.disay .img1 p{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.disay .img1 img {
+	width: 50%;
+}
+
+.disay  img {
+	width: 100%;
+	text-align: center;
+}
+
+
+/*=======================time================================*/
+.time {
+	padding-top: 6rem;
+}
+
+.time .time-title {
+	font-size: 3rem;
+}
+
+.time .times {
+	font-size:1em;
+	margin-bottom: 3rem;
+}
+.bg-img2 {
+	background: url(../img/3.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 50rem;
+}
+
+/*===============the-best=====================*/
+.the-best {
+	margin-top: 3rem;
+}
+
+.the-best .best-title {
+	font-size: 3rem;
+}
+
+
+.the-best .best-text {
+	font-size:1em;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+input {
+	width: 27rem;
+	height: 3rem;
+	margin-bottom: 1rem;
+}
+
+.check {
+	display: inline-block;
+}
+.close:hover { background: #00d9ff; }
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}

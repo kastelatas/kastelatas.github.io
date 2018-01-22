@@ -246,6 +246,11 @@ input {
 .stami span {
 	margin-left: 5rem;
 }
+
+.stami-text {
+	font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 1200px) {
 	.header .nomber {
 		margin-left: 0;

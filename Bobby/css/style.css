@@ -127,7 +127,7 @@ html {
 }
 
 .disay .img1 img {
-	width: 50%;
+	width: 70%;
 }
 
 .disay  img {
@@ -232,22 +232,97 @@ input {
 	display: inline-block;
 }
 .close:hover { background: #00d9ff; }
-@media only screen and (max-width: 1200px) {
 
+.stami .container {
+	margin-top: 5rem;
+	font-size: 2rem;
+}
+
+
+.stami .right {
+	margin-left: 5rem;
+}
+
+.stami span {
+	margin-left: 5rem;
+}
+@media only screen and (max-width: 1200px) {
+	.header .nomber {
+		margin-left: 0;
+	}
 	
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 991px) {
+	.header .row {
+		text-align: center;
+	}
+	.header .logo {
+		margin-left: 0;
+	}
+	.header .posi {
+		margin-right: 23rem;
+	}
 
+	.about .cent {
+		padding: 0;
+	}
+	.disay .cent {
+		padding: 0;
+	}
+	.time .cent {
+		padding: 0;
+	}
+	.the-best .cent {
+		padding: 0;
+	}
 	
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 691px) {
+	.header .nomber {
+		padding: 0;
+	}
 
+	.header .posi {
+		margin-right: 19rem;
+	}
 	
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 320px) {
 
-	
+	.header .posi{
+	margin-right: 10px;
+    margin-top: 150px;
+	}
+    
+    .abuot {
+    	padding-top: 3rem;
+    }
+
+    .about .about-title{
+    	font-size: 3rem;
+    	text-align: center;
+    }
+    .about .about-title2 {
+    	font-size: 3rem;
+    }
+
+	.about .about-text {
+		text-align: center;
+	}
+
+	.about img {
+		width: 300px;
+	}
+
+	.stami .container img {
+		width: 300px;
+	}
+
+	.stami .right {
+		margin-left: 0;
+	    font-size: 1.6rem;
+	}
 }

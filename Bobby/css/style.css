@@ -281,15 +281,32 @@ input {
 
 @media only screen and (max-width: 1200px) {
 	.header .nomber {
-		margin-left: 0;
+		position: static;
+		padding-left: 0;
+		padding-right: 0;
+
 	}
 	
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1196px) {
+.header .nomber {
+	margin-top: 2rem;
+		margin-right: 12rem;
+		}
 
+		.header h2,h1 {
+			text-align: left;
+		}
+}
+
+
+
+@media only screen and (max-width: 992px) {
 	
 }
+
+
 
 
 @media only screen and (max-width: 991px) {
@@ -301,8 +318,9 @@ input {
 	}
 	.header .posi {
 		margin-right: 23rem;
-		margin-top: 20rem;
+		margin-top: 0;
 	}
+
 
 	.about .cent {
 		padding: 0;
@@ -320,15 +338,30 @@ input {
 }
 
 @media only screen and (max-width: 691px) {
+	.header .logo {
+		text-align: center;
+	}
 	.header .nomber {
 		padding: 0;
+		margin-right: 0;
 	}
+
 
 	.header .posi {
 		margin-right: 19rem;
 	}
-	
+	ul {
+		float: left;
+    margin-left: 5rem;
+	}
+	.header .bger {
+		margin-left: 10rem;
+	}
+	.header h2,h1 {
+			text-align: center;
+		}
 }
+
 @media only screen and (max-width: 470px) {
 	
     .abuot {
@@ -362,12 +395,29 @@ input {
 }
 
 
+@media only screen and (max-width: 470px) {
+	.header .bger {
+		margin-left: 0;
+	}
 
+	.header .posi {
+		margin-right: 5rem;
+	}
+	ul {
+		margin-left: 0;
+	}
+	ul li {
+		f
+	}
+
+
+}
 
 
 @media only screen and (max-width: 375px) {
 
-    
+
+		    
     .abuot {
     	padding-top: 3rem;
     }
@@ -396,14 +446,22 @@ input {
 		margin-left: 0;
 	    font-size: 1.6rem;
 	}
+		
 }
 
 
 @media only screen and (max-width: 360px) {
 
+.header .bger {
+			margin-left: 0;
+		}
+		ul {
+			margin-left: 0;
+		}
+		
 	.header .posi{
 	margin-right: 3rem;
-    margin-top: 35rem;
+  	margin-top: 0;
 	}
     
     .abuot {

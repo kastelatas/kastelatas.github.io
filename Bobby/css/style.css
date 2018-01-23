@@ -100,6 +100,10 @@ ul {
 	border: 2px solid #000;
 }
 
+.header .tov {
+	margin: 0;
+	text-align: center;
+}
 
 /*==================about====================*/
 

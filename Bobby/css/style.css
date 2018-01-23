@@ -5,46 +5,68 @@ html {
 
 .header {
 	padding-top: 20px;
-	background: url(../img/new.png)  center no-repeat;
-	background-size:cover ;
+	background: linear-gradient(45deg, transparent 50%, rgba(71, 69, 69, 0.2) 50%, rgba(71, 69, 69, 0.2)), 
+                linear-gradient(-45deg, rgba(71, 69, 69, 0.2) 50%, transparent 100%, transparent);
 	
-	height: 100vh;
 	
 }
 
+.header .bger {
+	background: url(../132.png) ;
+	width: 31rem;
+	height: 40rem;
+	background-size: cover;
+	float: left;
+	margin-top: 5rem;
+}
 
+ul {
+	font-size: 3rem;
+	    margin-left: 40rem;
+    margin-top: 10rem;
+	
+}
 
 .header .logo {
 	font-family: Times New Roman;
 	font-size: 5rem;
 	font-weight: 700;
-	color: #fff;
+		color: #000;
 	margin-left: 15rem;
+}
+
+.header .h2 {
+	margin-left: 30rem;
 }
 
 .header .nomber {
 	font-size: 1.8rem;
 	padding-top: 0.5rem;
-	padding: 0 15rem;
-	margin-left: 2rem;
-	color: #fff;
+	padding: 0 25rem;
+	margin-top: 20rem;
+	text-align: center;
+	color: #000;
+	position: absolute;	
+	bottom: 65rem;
+	left: 36rem;
+
 
 }
 
 .header .posi{
 	float: right;
-	margin-top: 35rem;
-	margin-right: 5rem;
+	margin-right: 30rem;
+
 }
 
 .header .text {
 	font-size: 3rem;
-	color: #fff;
+	color: #000;
 }
 
 .header .price1 {
 	font-size: 3rem;
-	color: #fff;
+	color: #000;
 	text-decoration: line-through;
 	display: inline-block; 
 }
@@ -62,7 +84,7 @@ html {
 
 .header a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 
@@ -75,6 +97,7 @@ html {
 	border-radius: 10rem;
 	padding: 0 3rem;
 	margin-bottom: 20rem;
+	border: 2px solid #000;
 }
 
 

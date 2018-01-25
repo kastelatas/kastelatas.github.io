@@ -1,0 +1,308 @@
+html {
+	font-size: 10px;
+
+}
+
+
+.header {
+	background: url(../img/bg-head.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 10px;
+	font-family: Georgia;
+}
+
+.cent {
+	text-align: center;
+}
+
+.header .header_title2 {
+	font-family: Georgia;
+    background: linear-gradient(360deg, #ca0603 60%, #bf0503 20%, #940301);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  
+}
+
+.header .header-img {
+	background: url(../img/head-img.png);
+	background-size: cover;
+	height: 500px;
+	width: 400px;
+	position: relative;
+	right: 8rem;
+
+}
+
+
+.header .header_title3 {
+	font-size: 1.9rem;
+	color: #000;
+}
+
+.header ul {
+	margin-bottom: 5rem;
+}
+
+.header ul li {
+	color: #fff83a;
+	font-size: 1.75rem;
+	font-family: Georgia;
+}
+
+.header ul li span {
+	color: #000;
+}
+
+
+.header .header_btn {
+	padding: 20px 20px;
+	text-transform: uppercase;
+	background: linear-gradient(360deg, #940301 40%, #bf0503 80%, #ca0603);
+	color: #fff;
+	font-weight: bold;
+	border-right: 3px solid #270101;
+	border-bottom:3px solid #270101;
+	border-top:3px solid #ef9695 ;
+	border-left:3px solid #b13f3f ;
+	border-radius: 7px;
+	margin-left: 5rem;
+	position: relative;
+	top: -12rem;
+	
+
+}
+
+
+/*===============CONTENT====================*/
+.content {
+		font-family: Georgia;
+		color: #000;
+}
+
+.content .content_title1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 2.4rem;
+	margin-bottom: 5rem;
+}
+
+.content .content_title2 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
+}
+
+.content ul {
+	margin-left: 40px;
+}
+
+.content ul li {
+	color: #fff83a;
+	font-size: 1.6rem;
+}
+
+.content ul li span {
+	color: #000;
+}
+
+
+.content .content_text1 {
+	font-family: Georgia;
+	font-size: 1.6rem;
+	margin-bottom: 2.6rem;
+}
+
+.content .content_big-text{
+	font-weight: bold;
+}
+
+.content .title3 {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.content hr {
+	border: 0;
+	height: 1px;
+	background: #000;
+
+
+}
+
+.content .text2 {
+	font-size: 1.6rem;
+}
+
+.content .content-img {
+	background: url(../img/content-img.jpg) center center no-repeat;
+	width: 40rem;
+	height: 65rem;
+}
+
+.content .content-btn {
+	text-align: center;
+}
+.content .content-btn button {
+	padding: 20px 130px;
+	text-transform: uppercase;
+	background: linear-gradient(360deg, #940301 40%, #bf0503 80%, #ca0603);
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.8rem;
+	border-right: 3px solid #270101;
+	border-bottom:3px solid #270101;
+	border-top:3px solid #ef9695 ;
+	border-left:3px solid #b13f3f ;
+	border-radius: 7px;
+	margin-top: 6rem;
+	margin-bottom: 8rem;
+}
+
+/*========================FOOTER============================*/
+.footer {
+	background: #3271d0;
+	font-family: Georgia;
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer .footer_text2{
+	margin-bottom: 0;
+}
+
+.footer .footer_text4 {
+	margin-bottom: 1rem;
+}
+
+.footer a {
+	margin-bottom: 4rem;
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+	.header {
+
+	}
+	.header .header-img {
+		right: 3rem;
+   		top: -120px;
+	}
+	.header .header_btn {
+		padding: 20px 30px;
+		top: -12rem;
+    	left: 4rem;
+	}
+
+	.content hr {
+	
+	}
+	.content .content-btn button {
+		padding: 20px 60px;
+	}
+	.content .content-img {
+		
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.header .header-img {
+		top: -10rem;
+		right: -10rem;
+	}
+	.header .header_btn {
+		top: -20rem;
+		right: -20rem;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.header .header-img  {
+		right: 0;
+	}
+	.header .header_btn {
+		right: -10rem;
+	}
+	
+}
+
+@media only screen and (max-width: 420px) {
+	.header .header-img {
+		right: 5rem;
+	}
+	.content .content-img {
+		width: 360px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.content .content-img {
+		width: 330px;
+	}
+	.content .content-btn button {
+		padding: 20px 40px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.header .header_title2 {
+		font-size: 2rem;
+	}
+
+	.header .header_title1 {
+		font-weight: bold;
+	}
+	.header ul {
+		padding-left: 2rem;
+	}
+
+	.header .header-img {
+		width: 300px;
+   		height: 300px;
+   		top: -90px;
+   		right: 0;
+	}
+	.header .header_btn {
+		top: -15rem;
+   		right: 4rem;
+   		margin-left: 0;
+	}
+
+	.header {
+		height: 1600px;
+	}
+
+	.content .content_title1 {
+		margin-bottom: 0;
+	}
+
+	.content ul {
+		margin-left: 0;
+	}
+	.content .content-img {
+		width: 290px;
+	}
+
+	.content hr {
+		width: 29rem;
+	}
+
+	.content .content-btn button {
+		padding: 20px 20px;
+		margin-left: 0;
+
+	}
+
+	
+}

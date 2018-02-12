@@ -1,0 +1,190 @@
+
+.head {
+
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg-head.jpg) top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+
+}
+.fixed {
+	position: fixed;
+}
+
+.head .head-menu-left {
+	width: 80px;
+	height: 87px;
+	float: left;
+	background-color: #4ea8d5;
+	position: relative;
+	left: -14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2rem;
+}
+span {
+  display: block;
+  height: 3px;
+  width: 30px;
+
+  background-color: #fff;
+  margin: 5px 0 0;
+   margin-left: 25px;
+  transition: all .1s linear .23s;
+  position: relative;}
+
+a,a:hover,a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+.head .logo {
+	position: relative;
+	left: -14px;
+	background-color: #353643;
+	padding: 25px;
+}
+
+
+.head ul {
+	padding-left: 0;
+	margin-left: 50px;
+}
+
+.head ul li {
+	display: inline-block;
+
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 3rem;
+	margin-top: 3rem;
+}
+
+.head ul li a {
+		color: #fff;
+
+}
+
+.head ul li a::after {
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #078ac2;
+	display:block;
+	transform: scale(0);
+}
+
+
+.head ul li a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.head ul li a:hover:after {
+	transform: scale(1);
+	transition: 0.2s;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+
+.head .phone {
+	width: 80px;
+	height: 87px;
+	float: left;
+	background-color: #4ea8d5;
+	text-align: center;
+	padding-top: 3rem;
+	position: absolute;
+	right: -94rem;
+	top: -7rem;
+	
+}
+.head .phone img {
+
+}
+
+.head .head-title {
+	color: #fff;
+	font-size: 7rem;
+	margin-left: 20rem;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+
+.footer-menu ul li {
+	display: inline-block;
+
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 16rem;
+	margin-top: 24rem;
+}
+
+.footer-menu ul li a {
+		color: #fff;
+
+
+}
+
+.head .footer-menu ul li a::after {
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #078ac2;
+	display:block;
+	transform: translateY(25px);
+
+}
+
+
+.footer-menu ul li a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.footer-menu ul li a:hover:after {
+	transform: translateY(15px) scale(1);
+	transition: 0.2s;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.icon {
+	position: absolute;
+	top:23rem;
+	left: 120rem;
+}
+
+.icon .inst {
+	position: relative;
+	top: -7rem;
+	left: 9.6rem;
+}
+.icon .fb {
+	position: relative;
+	left: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (max-width: 1200px) {
+
+	
+}

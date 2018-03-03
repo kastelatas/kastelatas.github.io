@@ -13,6 +13,9 @@
 	.portfolio_item .port_item_cont {
 		width: 92%
 	}
+	.mtt {
+		margin-top: 2rem;
+	}
 }
 
 /* Small Devices, Tablets */
